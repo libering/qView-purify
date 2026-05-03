@@ -92,7 +92,6 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     actionManager.addCloneOfAction(contextMenu, "showfileinfo");
     contextMenu->addSeparator();
     actionManager.addCloneOfAction(contextMenu, "rename");
-    actionManager.addCloneOfAction(contextMenu, "delete");
     contextMenu->addSeparator();
     actionManager.addCloneOfAction(contextMenu, "nextfile");
     actionManager.addCloneOfAction(contextMenu, "previousfile");
